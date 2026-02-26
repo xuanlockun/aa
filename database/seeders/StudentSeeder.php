@@ -59,7 +59,6 @@ class StudentSeeder extends Seeder
             }
         }
 
-        // insert phần còn lại
         if (!empty($batch)) {
             \App\Models\Student::insert($batch);
         }
